@@ -1,0 +1,3 @@
+def cut(nums):
+    if 1==nums:
+    
