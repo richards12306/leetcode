@@ -7,7 +7,10 @@
 # @lc code=start
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-        
+        for row in range(len(board)):
+            for coloumn in range(len(board[0])):
+                if board[row][coloum] == word[0]:
+                    stack.append([row,coloumn])
 
 # @lc code=end
 
